@@ -176,7 +176,7 @@ The benefits of this approach include:
 
 The drawbacks of this approach include:
 
-  * Third party verifiable learns of your information and can correlate
+  * Third party verifiers learn of your information and can correlate
     identifiers. However, their viability as a service depends on their
     trustworthiness and providing a good quality, privacy-preserving
     service is a requirement for people to be interested in using them.
@@ -187,7 +187,7 @@ The Same Origin Identity approach leans on some assumptions about
 highly available infrastructure. Namely, that everyone has it or can
 provide it as needed. If this assumption is not true, then this approach
 has the potential to result in more centralized systems and blocking
-certain low budget or temporal parties from participating. Even if
+certain low budget or transient parties from participating. Even if
 designers try really hard to make the core layer prevent the correlation
 of identifiers that the software framework introduces, that does not
 prevent the correlation of other strongly-personally-identifying
